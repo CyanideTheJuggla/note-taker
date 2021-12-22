@@ -1,0 +1,1 @@
+web: node .\Deployment\server.js

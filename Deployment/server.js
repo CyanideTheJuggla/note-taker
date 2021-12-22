@@ -7,7 +7,10 @@ const { get } = require('http');
 // Helper method for generating unique ids
 //const uuid = require('./helpers/uuid');
 
-const PORT = 3001;
+let PORT = process.env.PORT;
+if (PORT == null || PORT == "") {
+  PORT = 3001;
+}
 const app = express();
 
 const apiPath = '/api/notes/';
