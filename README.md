@@ -1,5 +1,5 @@
-Repo: https://github.com/CyanideTheJuggla/note-taker
-Deployment:
+Repo: https://github.com/CyanideTheJuggla/note-taker <br/>
+Deployment: https://cyanidethejuggla.github.io/note-taker/ <br/>
 
 # 11 Express.js: Note Taker
 
